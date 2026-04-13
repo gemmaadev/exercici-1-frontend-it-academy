@@ -97,3 +97,15 @@ main {
   background-color: #efe78b;
   padding: 15px;
 }
+
+/* Media queries - tablet version */
+@media (min-width: 768px) and (max-width: 991px) {
+  #header-items-wrapper {
+    flex-direction: column;
+  }
+
+  #body-container {
+    display: flex !important; /*matxacarà qualsevol altre display*/
+    flex-direction: column;
+  }
+}
