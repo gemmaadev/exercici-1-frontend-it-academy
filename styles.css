@@ -5,6 +5,7 @@
 }
 body {
   margin: 0px;
+  background-color: purple;
 }
 main {
   max-width: 1200px;
@@ -108,6 +109,10 @@ main {
     display: flex !important; /*matxacarà qualsevol altre display*/
     flex-direction: column;
   }
+
+  body {
+    background-color: paleturquoise;
+  }
 }
 
 /* Media queries - mobile version */
@@ -124,5 +129,9 @@ main {
   #article-wrapper {
     display: flex !important; /*matxacarà qualsevol altre display*/
     flex-direction: column;
+  }
+
+  body {
+    background-color: darkolivegreen;
   }
 }
