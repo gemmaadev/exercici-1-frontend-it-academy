@@ -109,3 +109,20 @@ main {
     flex-direction: column;
   }
 }
+
+/* Media queries - mobile version */
+@media (max-width: 767px) {
+  #header-items-wrapper {
+    flex-direction: column;
+  }
+
+  #body-container {
+    display: flex !important; /*matxacarà qualsevol altre display*/
+    flex-direction: column;
+  }
+
+  #article-wrapper {
+    display: flex !important; /*matxacarà qualsevol altre display*/
+    flex-direction: column;
+  }
+}
