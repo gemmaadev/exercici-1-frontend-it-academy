@@ -42,6 +42,21 @@ main {
   flex: 3; /*El segon element vermell (el .nav) creixerà el triple que els altres */
 }
 
+.expand-header-item:hover {
+  animation: expandEffect 0.3s forwards;
+}
+
+@keyframes expandEffect {
+  from {
+    transform: scale(1);
+    background-color: #ea5454;
+  }
+  to {
+    transform: scale(1.25);
+    background-color: #ff1393;
+  }
+}
+
 #banner-container {
   background-color: #ff8b00;
   padding: 30px;
